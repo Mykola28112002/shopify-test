@@ -2599,7 +2599,6 @@ details[open] > .header__submenu {
 
 /* Header menu */
 .header__inline-menu {
-  margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
   background-color: blue;
