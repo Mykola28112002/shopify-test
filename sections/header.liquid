@@ -28,6 +28,9 @@
 {% form 'contact' %}
   content
 {% endform %}
+{% form 'product', product %}
+  content 
+{% endform %}
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
