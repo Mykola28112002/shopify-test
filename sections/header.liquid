@@ -18,19 +18,6 @@
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{%- endif -%}
-{% form 'form_type' %}
-  content
-{% endform %}
-{% form 'cart', cart %}
- content 
-{% endform %}
-{% form 'contact' %}
-  content
-{% endform %}
-{% form 'product', product %}
-  content 
-{% endform %}
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
