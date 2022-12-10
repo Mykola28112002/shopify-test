@@ -7,7 +7,7 @@
   border-left: 0;
   border-radius: 0;
   border-right: 0;  
-  left: 50%;
+  left: 0;
   overflow-y: auto;
   padding-bottom: 2.4rem;
   padding-top: 2.4rem;
@@ -15,7 +15,7 @@
   right: 0;
   top: 100%;
   z-index: -1;
-
+  
 }
 
 .shopify-section-header-sticky .mega-menu__content {
