@@ -133,10 +133,20 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "37ddff9f-18a0-4f2e-a754-789f4db103e1": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "37ddff9f-18a0-4f2e-a754-789f4db103e1"
         ],
         "settings": {
         }
