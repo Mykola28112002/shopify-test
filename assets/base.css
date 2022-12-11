@@ -2258,6 +2258,8 @@ input[type='checkbox'] {
 @media screen and (min-width: 990px) {
   .header {
       padding: 0;
+      padding-top: 20px;
+      padding-bottom: 0;
     }
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
