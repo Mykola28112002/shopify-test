@@ -53,6 +53,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   .list-menu--inline {
@@ -81,14 +82,22 @@
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
     }
+    .list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+  }
     
   }
-  @media screen and (max-width: 749px) {
+  {% comment %} @media screen and (max-width: 749px) {
     .list-menu {
       display: flex;
       flex-direction: column;
   }
-  }
+  } {% endcomment %}
 </style>
 
 {%- style -%}
