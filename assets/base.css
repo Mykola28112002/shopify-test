@@ -2367,10 +2367,15 @@ input[type='checkbox'] {
 
 /* Header icons */
 .header__icons {
-  margin-right: 5rem;
   display: flex;
   grid-area: icons;
   justify-self: end;
+  
+}
+@media screen and (min-width: 990px) {
+  .header__icons {
+      margin-right: 5rem;
+  }
 }
 
 .header__icon:not(.header__icon--summary),
